@@ -1,3 +1,4 @@
 mock
 scipy
 numpy
+python_speech_features
