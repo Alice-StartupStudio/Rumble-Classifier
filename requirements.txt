@@ -1,4 +1,15 @@
-mock
-scipy
+####Python Version####
+Python== 2.7
+
+####pip install####
 numpy
-python_speech_features
+scipy 
+sklearn
+hmmlearn
+Simplejson 
+eyeD3 
+pydub
+
+####pyAudioAnalysis Library####
+git clone https://github.com/tyiannak/pyAudioAnalysis.git
+#Make sure put pyAudioAnalysis folder in anaconda/pkgs
