@@ -11,12 +11,11 @@ import numpy as np
 # Result: print result in each steps and chart of accuracy, save the model to same folder
 
 
-# # Try different models
+# # Different models
 
-# aT.featureAndTrain(["trainingData/delia","trainingData/speech","trainingData/eating"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "svm", "svmDE", False)
-# aT.featureAndTrain(["trainingData/delia","trainingData/eating"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "knn", "knnDE", False)
-# aT.featureAndTrain(["trainingData/delia","trainingData/eating"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "extratrees", "etDE", False)
-# aT.featureAndTrain(["trainingData/delia","trainingData/eating"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "gradientboosting", "gbDE", False)
-# aT.featureAndTrain(["trainingData/delia","trainingData/eating"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "randomforest", "rfDE", False)
+aT.featureAndTrain(["trainingData/delia","trainingData/eating","trainingData/drink"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "knn", "knnDE", False)
+# aT.featureAndTrain(["trainingData/delia","trainingData/eating","trainingData/drink"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "extratrees", "etDE", False)
+# aT.featureAndTrain(["trainingData/delia","trainingData/eating","trainingData/drink"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "gradientboosting", "gbDE", False)
+# aT.featureAndTrain(["trainingData/delia","trainingData/eating","trainingData/drink"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "randomforest", "rfDE", False)
+# aT.featureAndTrain(["trainingData/delia","trainingData/eating","trainingData/drink"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "svm", "svmDE", False)
 
-aT.featureAndTrain(["trainingData/delia","trainingData/eating"], 1.0, 1.0, aT.shortTermWindow, aT.shortTermStep, "svm", "svmDE", False)
